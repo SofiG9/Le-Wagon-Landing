@@ -1,0 +1,114 @@
+/* Write some CSS below */
+body { 
+	font-family: 'Dosis', sans-serif;
+	margin: 0; 
+ }
+ #naveg ul {
+ 	background-color: #404042;
+ 	background-size: cover;
+ 	padding: 10px 17px;
+ 	margin: 0;
+ 	list-style-type: none;
+ 	text-align: left;
+ 	display: flex;
+ }
+ #naveg li {
+ 	display: inline;
+ 	text-align: center;
+ 	margin: 0;
+  }
+ #naveg li a {
+  	color: white;
+  	background-color: #404042;
+  	padding: 5px 19px 5px 19px;
+  	font-weight: bold;
+  	text-decoration: none;
+  }
+ #naveg li a:hover {
+ 	background-color: white;
+ 	color: #404042;
+ 	padding: 20px 25px;
+ 	margin: 0;
+ }
+ .navbar-brand {
+ 	align-items: left;
+ }
+
+ .background {
+ 	background-image: url(images/background.jpg);
+ 	width: 100%;
+ 	height: 100%;
+ 	padding: 150px 0;
+ 	text-align: center;
+}
+
+ h1 {
+ 	color: white;
+ 	font-size: 45px;
+ 	margin: 0;
+ 	font-weight: bold;
+ }
+
+ p {
+    color: white;
+    font-size: 24px;
+    opacity: 0.85;
+ }
+
+ button {
+    background-color: red;
+    color: white;
+    padding: 16px 49px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: .2s; 
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+
+ } 
+ .container {
+ 	display: flex;
+ 	flex-direction: row;
+ 	align-items: center;
+ 	justify-content: space-between;
+ }
+ .card {
+ 	border-radius: 17px;
+ 	padding: 20px;
+ 	margin: 70px 100px;
+
+  }
+ .card button {
+ 	background-color: transparent;
+    color: white;
+    padding: 11px 45px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: .2s; 
+    font-size: 19px;
+    font-weight: normal;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+ }
+ .card p {
+    color: white;
+    font-size: 19px;
+    opacity: 0.95;
+ }
+ footer {
+ 	background: #404042;
+ 	color: white;
+ 	padding: 17px 49px;
+ 	position: fixed;
+ 	bottom: 0;
+ 	left: 0;
+ 	right: 0;
+ 	width: 100%;
+ 	height: 17px;
+ }
+ footer p{
+ 	margin: 0;
+ 	font-size: 17px;
+   }
